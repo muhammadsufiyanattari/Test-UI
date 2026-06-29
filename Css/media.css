@@ -1,0 +1,43 @@
+@media screen and (max-width: 900px) {
+    header{
+        /* flex-direction: column; */
+        height: auto;
+    }
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #headerLinks{
+        order: 1;
+    }
+    #headerLinks ul {
+    gap:10px ;
+}
+section  #herofirst{
+    flex-direction: column-reverse;
+}
+#heroSectionOneimg{
+    margin-bottom: 20px;
+}
+section .hearoSection #leftSide{
+    width: auto;
+}
+#courseCardBox{
+    flex-direction: column;
+}
+.card{
+    padding: 0px auto;
+}
+#cardText p{
+    /* width: auto; */
+}
+
+#cardBtn{
+    background-color: blue;
+    width: 100%;
+}
+#cardBtn button{
+    width: 100%;
+    background-color: aqua;
+}
+}
