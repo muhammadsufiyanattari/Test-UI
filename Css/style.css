@@ -90,14 +90,18 @@ section .hearoSection #rightSize{
     flex-grow: 1;
 }
 section #courseCardSection{
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
         border-bottom: 1px solid rgb(225, 224, 224);
 
     /* gap: 5px; */
+}
+#sectionTwo{
+    box-sizing: border-box;
 }
 section #courseCardSection #courseCardHeading{
     /* background-color: #004AC6; */
@@ -106,12 +110,14 @@ section #courseCardSection #courseCardHeading{
     font-weight: bolder;
 }
 #courseCardBox{
+    box-sizing: border-box;
     display: flex;
     gap: 24px;
 }
 .card{
-    /* width: 345px; */
-    height: 275px;
+    /* width: 200px; */
+    box-sizing: border-box;
+    /* height: 275px; */
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
@@ -125,10 +131,12 @@ section #courseCardSection #courseCardHeading{
     border: 2px solid rgb(225, 224, 224);
 }
 #cardImg img{
-    width: 64px;
+    /* width: 64px; */
     height: auto;
+    margin-top: 20px;
 }
 #cardText{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,17 +149,23 @@ font-weight: bold;
 
 }
 #cardText p{
-    width: 300px;
+    width: 100%;
     color: var(--primryText);
 }
+#cardBtn{
+    width: 100%;
+    box-sizing: content-box;
+}
 #cardBtn button{
-    width: 290px;
+    width: 100%;
     border: none;
     border: 1px solid var(--primryColor);
     border-radius:var(--radius);
-    padding: 10px 30px;
+    padding: 10px ;
     color: var(--primryColor);
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
+        margin-bottom: 20px;
+
 }

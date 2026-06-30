@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 970px) {
     header{
         /* flex-direction: column; */
         height: auto;
@@ -38,6 +38,5 @@ section .hearoSection #leftSide{
 }
 #cardBtn button{
     width: 100%;
-    background-color: aqua;
 }
 }
