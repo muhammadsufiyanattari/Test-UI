@@ -198,6 +198,7 @@ font-weight: bold;
     flex-direction: row-reverse;
 }
 footer{
+    padding-top: 10px;
 border-top: 2px solid var(--primryTextLight);}
 #footer-content{
     /* font-weight: bold; */
@@ -213,6 +214,7 @@ border-top: 2px solid var(--primryTextLight);}
 #footerLinks ul{
     display: flex;
     gap: 20px;
+    text-align: center;
     
 }
 #footerText{
