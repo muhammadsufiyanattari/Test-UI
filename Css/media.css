@@ -41,8 +41,31 @@ section .hearoSection #leftSide{
 #sectionThree  #herofirst{
     flex-direction: column-reverse;
 }
+footer{
+    padding-bottom: 10px ;
+}
 #footer-content{
     height: auto;
     /* gap: 10px; */
 }
 }
+@media screen and (max-width: 700px) {
+    #navBtn {
+    width: 100%;
+}
+#navBtn button{
+    width: 100%;
+    padding: 10px;
+}
+#headerLinks{
+    width: 100%;
+}
+#headerLinks ul{
+    text-align: center;
+    width: 100%;
+}
+#headerLinks ul li{
+    width: 100%;
+}
+}
+

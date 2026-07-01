@@ -10,15 +10,24 @@ background-color: #FAF8FF;
 img{
     width: 100%;
 }
+
 .cantainer{
     width: 90%;
     margin: 0 auto;
 }
 :root{
     --primryColor:#004AC6;
+    --primryColorLight:#2667d7;
     --primryText:#434655;
     --primryTextLight:#555f6f;
     --radius:2px;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    background-color: var(--primryColorLight) !important;
+    color: white !important;
 }
 header{
     display: flex;
@@ -57,7 +66,7 @@ border-bottom: 3px solid;
     border: none;
     border-radius: var(--radius);
     font-size: 16px;
-    font-weight: bold;
+font-weight:500;
     cursor: pointer;
 }
 /* hearoSectionOne */
@@ -67,7 +76,7 @@ section .hearoSection{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin: 40px 0px;
+    margin: 70px 0px;
     }
 section .hearoSection #leftSide{
     display: flex;
@@ -78,8 +87,8 @@ section .hearoSection #leftSide{
     width: 512px;
 }
 .hearoSection #leftSide p{
-    color: var(--primryTextLight);
-    font-size: 16px;
+    color: var(--primryText);
+    font-size: 18px;
     word-spacing: 0.1rem;
     line-height: 1.5rem;
 
@@ -88,7 +97,7 @@ section .hearoSection #leftSide{
 padding: 15px 40px;
 background-color: var(--primryColor);
 color: white;
-font-weight: bold;
+font-weight:500;
 border: none;
 font-size: 16px;
 border-radius: var(--radius);
@@ -97,6 +106,7 @@ section .hearoSection #rightSize{
     flex-grow: 1;
 }
 section #courseCardSection{
+      
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -109,6 +119,9 @@ section #courseCardSection{
 }
 #sectionTwo{
     box-sizing: border-box;
+    border-bottom: 1px solid rgb(225, 224, 224);
+    padding: 40px;
+
 }
 section #courseCardSection #courseCardHeading{
     /* background-color: #004AC6; */
@@ -165,6 +178,7 @@ font-weight: bold;
 }
 #cardBtn button{
     width: 100%;
+    background-color: transparent;
     border: none;
     border: 1px solid var(--primryColor);
     border-radius:var(--radius);
@@ -213,4 +227,5 @@ text-decoration: none;
 #footerLogo h5{
 font-weight: bold;
 font-size: 18px;
+color: var(--primryText);
 }
