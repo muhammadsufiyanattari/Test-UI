@@ -86,6 +86,10 @@ section .hearoSection #leftSide{
     gap: 30px;
     width: 512px;
 }
+#sectionOne{
+        border-bottom: 1px solid rgb(225, 224, 224);
+
+}
 .hearoSection #leftSide p{
     color: var(--primryText);
     font-size: 18px;
