@@ -180,3 +180,38 @@ font-weight: bold;
 #sectionThree  #herofirst{
     flex-direction: row-reverse;
 }
+footer{
+border-top: 2px solid var(--primryTextLight);}
+#footer-content{
+    /* font-weight: bold; */
+    box-sizing: border-box;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+}
+#footerLinks ul{
+    display: flex;
+    gap: 20px;
+    
+}
+#footerText{
+    color: var(--primryTextLight);
+    text-align: center;
+}
+#footerLinks ul li {
+    list-style: none;
+    font-weight: bold;
+
+}
+#footerLinks ul li a{
+color: var(--primryText);
+text-decoration: none;
+}
+#footerLogo h5{
+font-weight: bold;
+font-size: 18px;
+}
