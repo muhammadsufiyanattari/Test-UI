@@ -124,9 +124,9 @@ section #courseCardSection{
 
 }
 section #courseCardSection #courseCardHeading{
-    /* background-color: #004AC6; */
     margin: 40px 0px;
     font-size: 18px;
+    text-align: center;
     font-weight: bolder;
 }
 #courseCardBox{
