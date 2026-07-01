@@ -41,4 +41,8 @@ section .hearoSection #leftSide{
 #sectionThree  #herofirst{
     flex-direction: column-reverse;
 }
+#footer-content{
+    height: auto;
+    /* gap: 10px; */
+}
 }
