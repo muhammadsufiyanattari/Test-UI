@@ -1,4 +1,5 @@
 @media screen and (max-width: 970px) {
+    /* ========== Header ==========  */
     header{
         /* flex-direction: column; */
         height: auto;
@@ -13,6 +14,9 @@
     #headerLinks ul {
     gap:10px ;
 }
+    /* ========== Header closed ==========  */
+    /* ========== Hero Section ==========  */
+
 section  #herofirst{
     flex-direction: column-reverse;
 }
@@ -22,6 +26,8 @@ section  #herofirst{
 section .hearoSection #leftSide{
     width: auto;
 }
+/* ========== Hero Section closed ==========  */
+/* ========== Course Cards Section ==========  */
 #courseCardBox{
     flex-direction: column;
 }
@@ -38,9 +44,13 @@ section .hearoSection #leftSide{
 #cardBtn button{
     width: 100%;
 }
+/* ========== Course Cards Section closed ==========  */
+/* ========== About Section ==========  */
 #sectionThree  #herofirst{
     flex-direction: column-reverse;
 }
+/* ========== About Section closed ==========  */
+/* ========== Footer ==========  */
 footer{
     padding-bottom: 10px ;
 }
@@ -48,6 +58,8 @@ footer{
     height: auto;
     /* gap: 10px; */
 }
+/* ========== Footer closed ==========  */
+/* ========== Navigation Button & Links ==========  */
 #navBtn {
     width: 100%;
     padding: 10px;
@@ -66,6 +78,7 @@ footer{
 #headerLinks ul li{
     width: 100%;
 }
+/* ========== Navigation Button & Links closed ==========  */
 }
 
 
