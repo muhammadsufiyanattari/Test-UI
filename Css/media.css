@@ -33,10 +33,12 @@ section .hearoSection #leftSide{
 }
 
 #cardBtn{
-    background-color: blue;
     width: 100%;
 }
 #cardBtn button{
     width: 100%;
+}
+#sectionThree  #herofirst{
+    flex-direction: column-reverse;
 }
 }
